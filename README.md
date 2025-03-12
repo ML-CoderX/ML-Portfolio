@@ -1,7 +1,7 @@
 # ML-Portfolio
 # 🚀 My Machine Learning Learning Journey
 
-Welcome to my **Machine Learning Learning Journey**! This repository documents my progress, projects, and key learnings as I dive deep into ML & AI.
+Welcome to my **Machine Learning Learning Journey**! This repository documents my projects and key learnings as I dive deep into ML & AI.
 
 ## 📌 Overview
 This repository serves as a log of my learning process, including:

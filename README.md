@@ -15,9 +15,9 @@ This repository serves as a log of my learning process, including:
 
 
 ## 🏆 Projects
-### 1️⃣ [house-prices](link-to-folder)
-- 🔹 **Goal**: Predict house prices using Linear Regression 
-- 🔹 **Dataset**: Kaggle dataset
+### 1️⃣ [laptop-prices](link-to-folder)
+- 🔹 **Goal**: Predict laptop prices
+- 🔹 **Dataset**: amazon and flipkart data
 - 🔹 **Tech Stack**: Python
 - 🔹 **Status**: 🚧 In Progress
 

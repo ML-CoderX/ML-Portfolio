@@ -15,7 +15,7 @@ This repository serves as a log of my learning process, including:
 
 
 ## 🏆 Projects
-### 1️⃣ [Laptop-Price-Prediction](link-to-folder)
+### 1️⃣ [Laptop-Price-Prediction]([link-to-folder](https://github.com/ML-CoderX/laptop-price-predictor))
 - 🔹 **Goal**: Predict laptop prices
 - 🔹 **Dataset**: amazon and flipkart data
 - 🔹 **Tech Stack**: Python

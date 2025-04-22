@@ -15,17 +15,17 @@ This repository serves as a log of my learning process, including:
 
 
 ## 🏆 Projects
-### 1️⃣ [laptop-prices](link-to-folder)
+### 1️⃣ [Laptop-Price-Prediction](link-to-folder)
 - 🔹 **Goal**: Predict laptop prices
 - 🔹 **Dataset**: amazon and flipkart data
 - 🔹 **Tech Stack**: Python
-- 🔹 **Status**: 🚧 In Progress
+- 🔹 **Status**: Completed
 
-### 2️⃣ [detect-spam-email](link-to-folder)
+### 2️⃣ [IPL-Win-Prediction](link-to-folder)
 - 🔹 **Goal**: a classification model to detect spam emails
-- 🔹 **Dataset**: 
+- 🔹 **Dataset**: previous year matches
 - 🔹 **Tech Stack**: Python
-- 🔹 **Status**: 🚧 In Progress
+- 🔹 **Status**: Completed
 
 ## 🤝 Contributing & Feedback
 If you have suggestions or feedback, feel free to open an issue or reach out!

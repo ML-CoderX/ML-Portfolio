@@ -13,17 +13,16 @@ This repository serves as a log of my learning process, including:
 - **ML-Projects/** → Contains individual ML projects.
 - **docs/** → Useful resources, references, and notes.
 
-
 ## 🏆 Projects
-### 1️⃣ [Laptop-Price-Prediction]([[https://github.com/ML-CoderX/laptop-price-predictor])
+### 1️⃣ [Laptop-Price-Prediction](https://github.com/ML-CoderX/laptop-price-predictor)
 - 🔹 **Goal**: Predict laptop prices
-- 🔹 **Dataset**: amazon and flipkart data
+- 🔹 **Dataset**: Amazon and Flipkart data
 - 🔹 **Tech Stack**: Python
 - 🔹 **Status**: Completed
 
-### 2️⃣ [IPL-Win-Prediction]([https://github.com/ML-CoderX/IPL_win_predictor])
-- 🔹 **Goal**: a classification model to detect spam emails
-- 🔹 **Dataset**: previous year matches
+### 2️⃣ [IPL-Win-Prediction](https://github.com/ML-CoderX/IPL_win_predictor)
+- 🔹 **Goal**: Predict the winner of IPL matches
+- 🔹 **Dataset**: Previous years' match data
 - 🔹 **Tech Stack**: Python
 - 🔹 **Status**: Completed
 

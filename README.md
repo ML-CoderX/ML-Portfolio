@@ -26,6 +26,12 @@ This repository serves as a log of my learning process, including:
 - 🔹 **Tech Stack**: Python
 - 🔹 **Status**: Completed
 
+### 2️⃣ [AI-Cliniacl-Assistant](https://github.com/ML-CoderX/IPL_win_predictor)
+- 🔹 **Goal**: Predict the diseases and give suggestions using AI
+- 🔹 **Dataset**: kaggle real time disease and symptoms dataset
+- 🔹 **Tech Stack**: Python
+- 🔹 **Status**: Completed
+
 ## 🤝 Contributing & Feedback
 If you have suggestions or feedback, feel free to open an issue or reach out!
 

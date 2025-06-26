@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Share+Tech+Mono&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-cyber-darker text-white font-tech overflow-x-hidden;
+    background-image: 
+      radial-gradient(circle at 50% 50%, rgba(123, 0, 255, 0.1) 0%, transparent 50%),
+      linear-gradient(to right, rgba(0, 243, 255, 0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(0, 243, 255, 0.05) 1px, transparent 1px);
+    background-size: 100% 100%, 4rem 4rem, 4rem 4rem;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-cyber;
+  }
+
+  .custom-cursor {
+    @apply fixed w-8 h-8 pointer-events-none z-50 mix-blend-screen;
+    background: radial-gradient(circle, rgba(0, 243, 255, 0.8) 0%, transparent 60%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+@layer components {
+  .neon-border {
+    @apply border-2 border-neon-blue relative;
+    box-shadow: 0 0 15px theme('colors.neon.blue');
+  }
+
+  .neon-border::before {
+    content: '';
+    @apply absolute inset-0 opacity-50;
+    box-shadow: inset 0 0 15px theme('colors.neon.blue');
+  }
+
+  .cyber-button {
+    @apply px-6 py-3 bg-cyber-light border-2 border-neon-blue 
+           text-neon-blue font-cyber uppercase tracking-wider
+           relative overflow-hidden transition-all duration-300
+           hover:text-cyber-darker;
+  }
+
+  .cyber-button::before {
+    content: '';
+    @apply absolute inset-0 bg-neon-blue -z-10 
+           transform scale-x-0 origin-left transition-transform duration-300;
+  }
+
+  .cyber-button:hover::before {
+    @apply scale-x-100;
+  }
+
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 relative;
+  }
+
+  .grid-item {
+    @apply bg-cyber-light p-6 rounded-lg neon-border
+           transform transition-all duration-300
+           hover:scale-105;
+  }
+
+  .grid-item::before {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-r from-neon-blue via-neon-purple to-neon-pink 
+           opacity-0 transition-opacity duration-300 rounded-lg -z-10;
+  }
+
+  .grid-item:hover::before {
+    @apply opacity-20;
+  }
+}
+
+/* Custom Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { 
+    box-shadow: 0 0 15px theme('colors.neon.blue'),
+                inset 0 0 15px theme('colors.neon.blue');
+  }
+  50% { 
+    box-shadow: 0 0 30px theme('colors.neon.purple'),
+                inset 0 0 30px theme('colors.neon.purple');
+  }
+} 
